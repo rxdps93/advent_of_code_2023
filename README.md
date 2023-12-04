@@ -1,12 +1,12 @@
 # Advent of Code 2023
 
-I'm doing it in Rust.
+I'm doing it in Rust. Run a puzzle with `cargo run -- d<day>p<puzzle>` e.g. `cargo run -- d1p2`
 
 [Join in the fun!](adventofcode.com)
 
-- [ ] Day 1
+- [x] Day 1
   - [x] puzzle 1
-  - [ ] puzzle 2
+  - [x] puzzle 2
 - [ ] Day 2
   - [ ] puzzle 1
   - [ ] puzzle 2
