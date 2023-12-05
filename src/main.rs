@@ -1,11 +1,12 @@
 use std::env::args;
 use regex::Regex;
 mod day01;
+mod day02;
 mod utils;
 
-const FUNCS: [[fn(); 2]; 1] = [
+const FUNCS: [[fn(); 2]; 2] = [
     [ day01::part01, day01::part02 ],
-    // [ day02::part01, day02::part02 ],
+    [ day02::part01, day02::part02 ],
     // [ day03::part01, day03::part02 ],
     // [ day04::part01, day04::part02 ],
     // [ day05::part01, day05::part02 ],
