@@ -23,6 +23,24 @@ pub fn part01() {
         format!(".{line}.")
     }).collect();
 
+    let mut nums: Vec<Vec<Match>> = Vec::new();
+    let reg_num = Regex::new(r"(?<num>\d+)").unwrap();
+    for line in test.as_slice() {
+        let matches: Vec<Match> = reg_num.captures_iter(line).map(|caps| {
+            caps.name("num").unwrap()
+        }).collect();
+
+        nums.push(matches);
+    }
+
+    for (row, m) in nums.iter().enumerate() {
+        if m.is_empty() {
+            continue;
+        }
+
+        println!("{row}");
+    }
+
     // let mut nums: Vec<Vec<Match>> = Vec::new();
     // let mut syms: Vec<Vec<Match>> = Vec::new();
     // let reg_num = Regex::new(r"(?<num>\d+)").unwrap();
