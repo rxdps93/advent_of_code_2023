@@ -20,3 +20,6 @@ Cargo.lock
 
 # Don't commit puzzle inputs
 /input
+
+# VSCode
+.vscode

@@ -11,7 +11,7 @@ I'm doing it in Rust. Run a puzzle with `cargo run -- d<day>p<puzzle>` e.g. `car
   - [x] puzzle 1
   - [x] puzzle 2
 - [ ] Day 3
-  - [ ] puzzle 1
+  - [x] puzzle 1
   - [ ] puzzle 2
 - [ ] Day 4
   - [ ] puzzle 1
